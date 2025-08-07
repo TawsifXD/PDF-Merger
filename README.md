@@ -2,7 +2,8 @@
 
 A modern, clean, and easy-to-use web app that allows users to merge multiple PDF files into one. Built using **HTML**, **CSS**, and **JavaScript** with a stylish UI and drag & drop support.
 
-![screenshot](<img width="1041" height="815" alt="image" src="https://github.com/user-attachments/assets/fc17dc8a-cafd-4a34-87a3-767ac7663ac6" />) <!-- Optional: Replace with your screenshot -->
+ <img width="1041" height="815" alt="image" src="https://github.com/user-attachments/assets/5bb845de-1612-44db-8d9a-f4963ba4d730" />
+<!-- Optional: Replace with your screenshot -->
 
 ---
 
@@ -31,5 +32,4 @@ A modern, clean, and easy-to-use web app that allows users to merge multiple PDF
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/TawsifXD/pdf-merger-pro.git
- ```
+    git clone https://github.com/TawsifXD/pdf-merger-pro.git
