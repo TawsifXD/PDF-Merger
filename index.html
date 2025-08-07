@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDF Merger Pro</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="app-header">
+      <h1>📄 PDF Merger Pro</h1>
+      <p>Combine multiple PDF files into one document</p>
+    </header>
+
+    <main class="app-main">
+      <section class="upload-section">
+        <div id="dropArea" class="drop-area">
+          <div class="drop-area-content">
+            <svg class="upload-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            <p class="drop-text">Drag & drop PDF files here</p>
+            <p class="drop-subtext">or</p>
+            <button id="browseBtn" class="browse-btn">Browse Files</button>
+          </div>
+          <input type="file" id="fileInput" multiple accept=".pdf" class="file-input" />
+        </div>
+      </section>
+
+      <section class="file-list-section">
+        <h2>Selected Files</h2>
+        <div id="fileList" class="file-list">
+          <p id="noFilesMessage" class="no-files">No files selected</p>
+        </div>
+      </section>
+
+      <section class="action-section">
+        <button id="mergeBtn" class="merge-btn" disabled>Merge PDFs</button>
+        <div id="progressContainer" class="progress-container hidden">
+          <div class="progress-bar">
+            <div id="progressBar" class="progress-fill"></div>
+          </div>
+          <p id="progressText" class="progress-text">Processing...</p>
+        </div>
+      </section>
+
+      <section class="message-section">
+        <div id="message" class="message"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
