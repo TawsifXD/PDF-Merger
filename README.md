@@ -2,7 +2,8 @@
 
 A modern, clean, and easy-to-use web app that allows users to merge multiple PDF files into one. Built using **HTML**, **CSS**, and **JavaScript** with a stylish UI and drag & drop support.
 
- <img width="1041" height="815" alt="image" src="https://github.com/user-attachments/assets/5bb845de-1612-44db-8d9a-f4963ba4d730" />
+<img width="643" height="812" alt="Screenshot 2025-08-08 091731" src="https://github.com/user-attachments/assets/d77f6ba0-84c4-4411-a84c-22904c9d6b8b" />
+
 <!-- Optional: Replace with your screenshot -->
 
 ---
